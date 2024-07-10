@@ -16,8 +16,12 @@ textarea {
 }
 
 textarea {
-  height: 100px;
-  resize: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none; 
+height: 200px;
+border-radius: 5px;
+background: #ffffff
 }
 
 .input-container {
@@ -31,6 +35,7 @@ textarea {
 
     input {
       width: 100%;
+      height: 46px;
       padding: 10px;
       box-sizing: border-box;
     }

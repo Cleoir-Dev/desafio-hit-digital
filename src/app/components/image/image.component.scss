@@ -1,0 +1,11 @@
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        max-width: 160px;
+        max-height: 61px;
+        margin-bottom: 50px;
+    }
+}

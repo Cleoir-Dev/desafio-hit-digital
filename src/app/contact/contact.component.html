@@ -1,20 +1,9 @@
 <div class="container">
-    <div class="img-container">
-        <img src="assets/imgs/lg-white.png" alt="logo" />
-    </div>
-    <div class="button-container">
-        <button class="button" routerLink="../introduction">Introdução</button>
-        <button class="button-upper" routerLink="../contact">Contato</button>
-    </div>
-    <div class="title-container">
-        <h2>Contato</h2>
-        <div class="line-contact">
-            <div class="highlight"></div>
-        </div>
-    </div>
+    <app-image></app-image>
+    <app-buttons></app-buttons>
+    <app-line title="Contato" className="line-contact"></app-line>
     <div class="content">
         <form>
-
             <div class="input-container">
                 <div class="input-wrapper">
                     <input type="text" id="name" name="name" placeholder="Nome*">

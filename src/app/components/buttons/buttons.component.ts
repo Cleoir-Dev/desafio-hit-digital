@@ -2,10 +2,12 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-contact',
+  selector: 'app-buttons',
   standalone: true,
   imports: [RouterLink],
-  templateUrl: './contact.component.html',
-  styleUrl: './contact.component.scss'
+  templateUrl: './buttons.component.html',
+  styleUrl: './buttons.component.scss'
 })
-export class ContactComponent {}
+export class ButtonsComponent {
+
+}

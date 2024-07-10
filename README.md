@@ -1,27 +1,67 @@
-# DesafioHitDigital
+# Desafio Frontend - Hit Digital
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+![Hit Digital](./src/assets/imgs/lg-mini.png)
 
-## Development server
+Este repositório contém a solução para o desafio de [Front-end da Hit Digital](https://github.com/Cleoir-Dev/desafio-hit-digital/blob/master/README.md) desenvolvido durante o período de 8 horas. Eu utilizei o framework Angular para desenvolver a aplicação.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📖 Sobre o desafio
 
-## Code scaffolding
+Esse é o teste técnico para a Vaga de Desenvolvedor Angular Senior. Desenvolvida pela Hit Digital.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Neste desafio, foi implementado as seguintes funcionalidades de acordo com as regras de negócio definidas:
 
-## Build
+### Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+[x] Carrega informações através do arquivo JSON [locations.json](https://hitdigital.com.br/test.php) utilizando o método `GET`.
+[x] Usar o Framework Angular.
+[x] Formulário sem envio.
+[x] Responsivo.
+[x] Fidelidade no visual seguindo UI/UX.
 
-## Running unit tests
+### Regras de negócio
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Pixel Perfect é a palavra-chave para que seu teste seja bem avaliado. 
+- O ponto mais importante será a fidelidade visual do seu front com o design enviado.
+- Seja detalhista, verifique se tem sombras, tamanho exato dos elementos, fontes e etc.
+- Use o arquivo de design em anexo para pegar as medidas e informações.
 
-## Running end-to-end tests
+## 🎨 Layout
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+O layout da aplicação foi baseado nos materiais disponibilizados, incluindo designs para cores, imagens e fontes. A fidelidade ao layout proposto foi mantida, e a aplicação é responsiva para dispositivos móveis, tablets e desktops.
 
-## Further help
+## 🦾 Versões utilizadas
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+node: v18.19.0
+npm: 10.2.3
+angular: 17.0.1
+
+## ⚙️ Como Executar
+
+Para executar a aplicação localmente, siga os passos abaixo:
+
+1. Clone este repositório:
+
+```bash
+
+  git clone https://github.com/Cleoir-Dev/desafio-hit-digital.git
+  cd desafio-hit-digital
+
+```
+
+2. Instale as dependências
+
+```bash
+  npm install
+```
+
+3. Inicie a aplicação
+
+```bash
+  ng serve 
+```
+
+ou
+
+```bash
+  npm start 
+```

@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink, RouterOutlet } from '@angular/router';
-import { IntroductionComponent } from './intro/introduction/introduction.component';
-import { ContactComponent } from './contact/contact/contact.component';
-import { PageNotFoundComponent } from './not-found/page-not-found/page-not-found.component';
+import { RouterOutlet } from '@angular/router';
+import { ContactComponent } from './contact/contact.component';
+import { IntroductionComponent } from './intro/introduction.component';
+import { PageNotFoundComponent } from './not-found/page-not-found.component';
 
 @Component({
   selector: 'app-root',

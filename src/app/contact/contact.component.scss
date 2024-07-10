@@ -18,16 +18,17 @@ textarea {
 textarea {
   margin-bottom: 10px;
   padding: 10px;
-  border: none; 
-height: 200px;
-border-radius: 5px;
-background: #ffffff
+  border: none;
+  height: 200px;
+  border-radius: 5px;
+  background: var(--white);
 }
 
 .input-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 13px;
 
   .input-wrapper {
     flex: 1;
@@ -45,4 +46,27 @@ background: #ffffff
 .textarea-container {
   display: grid;
   margin: 10px;
+}
+
+.button-container {
+  margin: 20px 0px 5px 0px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  display: ruby;
+}
+
+.button-send {
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 12px;
+  cursor: pointer;
+  width: 160px;
+  height: 40px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 5px 5px var(--black));
+  background: var(--button);
+  text-transform: uppercase;
 }
